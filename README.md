@@ -50,10 +50,18 @@ This system manages inventory for a retail enterprise spread across five warehou
 # Usage:
 Upon running, the console menu offers:
   1. Show current stock alerts — Lists products below the threshold in any warehouse.
+![SharedScreenshot 1](https://github.com/user-attachments/assets/f8460fa4-f962-48d3-8ce3-611dff873307)
+
   2. View stock distribution per warehouse — Pie chart of stock totals across warehouses.
+<img width="700" height="700" alt="Figure_1" src="https://github.com/user-attachments/assets/328a34a7-37fa-463e-a06c-105a75ce0b3a" />
+
   3. View stock count per product in a warehouse — Bar chart for product quantities in selected warehouse.
-  4. Exit — Quit the program.
+<img width="1000" height="600" alt="Figure_2" src="https://github.com/user-attachments/assets/421d4311-651b-499d-9668-6eed1f8e6e4f" />
+<img width="1000" height="600" alt="Figure_3" src="https://github.com/user-attachments/assets/9273d6a8-1fe8-4c53-965a-db5b71c88963" />
+ 
+  4. Exit — Quit the program.  
   5. Users can also check alternate warehouses’ stock when a product alert is triggered and transfer stock between warehouses via the interface.
+![SharedScreenshot 2](https://github.com/user-attachments/assets/e681df77-78c7-47a4-b812-a98f788f81e8)
 
 # Key SQL Components:
   -Schema definitions for tables and foreign keys.
@@ -61,6 +69,7 @@ Upon running, the console menu offers:
   -Queries to aggregate stock and check alert conditions.
   -Stored procedure for stock transfer.
   -Triggers for low-stock notifications (simulated via queries).
+<img width="1294" height="422" alt="Retail Sales Report" src="https://github.com/user-attachments/assets/dbb79f46-75a4-4afb-bd0f-fd32b32b5024" />
 
 # Future Enhancements:
   -Real-time alert notifications via email or dashboard.
